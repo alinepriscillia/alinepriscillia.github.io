@@ -1,0 +1,11 @@
+---
+title: CV
+---
+<div style="text-align: center; margin: 50px 0;">
+  <a href="{{ 'assets/Aline-PriscilliaMessi_CV.pdf' | relative_url }}" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     class="c-button c-button--primary c-button--large">
+     View My CV
+  </a>
+</div>
