@@ -1,4 +1,4 @@
-name: Deploy Jekyll with Bookshop to Pages
+name: Deploy Jekyll site with Bookshop
 
 on:
   push:
@@ -17,20 +17,22 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+        uses: actions/setup-ruby@v1
         with:
-          ruby-version: '3.2'
-          bundler-cache: true # This automatically runs 'bundle install'
+          ruby-version: '3.2' # Adjust to your local ruby version if needed
 
-      - name: Install dependencies
-        run: bundle install # Manual backup to ensure gems are present
+      - name: Install Dependencies
+        run: |
+          bundle install
+          # If you use npm for CSS/PostCSS, uncomment the next lines:
+          npm install
+          npm run build 
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - name: Build with Jekyll
-        working-directory: ./site
-        run: bundle exec jekyll build
+        run: bundle exec jekyll build --source site --destination _site
         env:
           JEKYLL_ENV: production
 
