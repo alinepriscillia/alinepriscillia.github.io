@@ -1,10 +1,10 @@
 /* Footer */
 .footer {
   position: relative;
-  margin-top: 44px;
+  margin-top: 34px;
   padding: 96px 0 60px;
   overflow: hidden;
-  background: linear-gradient(90deg, $primary-color 0%, $secondary-color 167%);
+  background: $secondary-color;
 
   .social {
     margin-bottom: 40px;
@@ -21,14 +21,14 @@
       line-height: 40px;
       font-size: 16px;
       border-radius: 50%;
-      color: $primary-color;
-      background: $white;
+      color: $white;
+      background: #D35269;
       transition: all .25s;
       will-change: transform;
 
       &:hover {
         transform: scale(0.9);
-        color: $primary-color;
+        color: darken($primary-color, 5%);
 
         &::after {
           content: none;

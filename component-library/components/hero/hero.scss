@@ -1,4 +1,6 @@
-/* Hero */
+/* Hero 
+- controls the button css for the landing page; other button aesthetics are under the button file in components
+*/
 .c-hero { $c: &;
 	padding: 96px 0;
 
@@ -142,6 +144,9 @@
 					transition: all .2s cubic-bezier(.215,.61,.355,1);
 					transform: scale(.94);
 				}
+				.button-arrow {
+					color: $text-color;
+				}
 			}
 
 			.circle-bg {
@@ -154,7 +159,7 @@
 				font-size: 14px;
 				border-radius: 50%;
 				will-change: transform;
-				background: linear-gradient(90deg, $primary-color 0%, $secondary-color 167%);
+				background: $secondary-color;
 				transition: all .2s cubic-bezier(.215, .61, .355, 1);
 			}
 
