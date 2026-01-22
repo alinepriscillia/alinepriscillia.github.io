@@ -73,7 +73,7 @@
     border-radius: 8px;
     overflow: hidden;
     color: $white;
-    background: linear-gradient(90deg, $primary-color 0%, $secondary-color 167%);
+    background: $secondary-color;
 
     &:hover {
       &:before {
@@ -94,7 +94,7 @@
       border-radius: 8px;
       will-change: transform;
       transition: opacity 0.35s;
-      background: linear-gradient(90deg, $primary-color 0%, $secondary-color 107%);
+      background: $accent-color;
     }
 
     &:last-child {
@@ -137,34 +137,14 @@
 
   }
 
-  &__author-image {
-    position: relative;
-    width: 44px;
-    height: 44px;
-    margin-right: 8px;
-    border-radius: 50%;
-    overflow: hidden;
-    background-color: $blue-gray;
-
-    img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 100%;
-      width: 100%;
-      border-radius: 50%;
-      object-fit: cover;
-    }
-  }
-
   &__info {
     display: flex;
     flex-direction: column;
   }
 
-  &__author-name {
+  &__journal {
     margin-bottom: 6px;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1;
     font-weight: 600;
   }

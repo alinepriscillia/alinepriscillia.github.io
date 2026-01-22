@@ -214,3 +214,32 @@
 		}
 	}
 }
+.ityped-cursor {
+	font-weight: 400;
+	animation: blink 0.4s infinite;
+	animation-direction: alternate;
+}
+
+@keyframes blink {
+
+	0%,
+	to {
+		color: transparent;
+	}
+
+	100% {
+		color: $primary-color;
+	}
+}
+
+@-webkit-keyframes blink {
+
+	0%,
+	to {
+		color: transparent;
+	}
+
+	100% {
+		color: $primary-color;
+	}
+}

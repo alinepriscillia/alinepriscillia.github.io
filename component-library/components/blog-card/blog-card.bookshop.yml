@@ -16,6 +16,7 @@ blueprint:
       - one
       - two
       - three
+    journal: ""
     description: ""
     content: ""
     date: ""
@@ -30,6 +31,7 @@ preview:
       - one
       - two
       - three
+    journal: "Lorem lorem"
     description: Lorem Ipsum
     content: Lorem Ipsum Donor
     date: 2018-04-24 15:01:35 +0300
