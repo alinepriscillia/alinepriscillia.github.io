@@ -106,8 +106,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   /* ============================
   // iTyped
-  ============================ */
-  if (document.querySelector(".c-subscribe")) {
+  ============================ 
+  changed the function so that it only runs for the title page
+  then select the string called itype_text and initializes the var called #ityped
+  */
+  if (document.querySelector(".c-hero")) {
     var options = {
       strings: itype_text,
       typeSpeed: 100,
