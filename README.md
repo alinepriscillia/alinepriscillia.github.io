@@ -11,3 +11,7 @@ The component library is built and maintained for use with [Bookshop](https://gi
 ## Features
 It uses this color palette: https://coolors.co/f4d6cc-d35269-899878-243010-c8d0cb
 
+
+### Where to find relevant information: 
+Most of the pages are markdown files contained 
+
