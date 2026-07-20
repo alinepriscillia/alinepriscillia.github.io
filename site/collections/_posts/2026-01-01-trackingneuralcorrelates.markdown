@@ -1,0 +1,12 @@
+---
+title:  Tracking Neural Correlates of Contextualized Meaning
+image:  '/images/post-9.jpg'
+journal: JNeuro
+tags:   [RSA, Semantic Representation]
+description: We found that in disambiguated contexts, the neural representation of a word is mainly shaped by its syntactic category and its unique contextually informed, semantic representation; not by the type of ambiguity. This representation is distributed and encoded by a left-lateralized network.
+date:   2025-05-31 15:01:35 +0300
+---
+Abstract: 
+Although it is uncontroversial that word meanings shift depending on their context, our understanding of contextualized lexical meaning remains poor. How is a contextualized semantic space organized? In this MEG study (27 human participants, 16 women, 10 men, 1 nonbinary), we manipulated the semantic and syntactic contexts of wordforms to query the organization of this space. All wordforms were noun/verb ambiguous and varied in the semantic distance between their noun and verb uses: unambiguous stems, polysemes with distinct but related meanings, and homonyms with completely unrelated meanings. The senses of each stem were disambiguated by a unique discourse sentence and the items were placed in syntactic contexts of varying sizes. Univariate results characterized syntactic context as a bilateral and distributed effect. A multivariate representational similarity analysis correlated one-hot models of the categorical factors and contextualized embedding-based models with MEG activity. Of all models representing ambiguity, only a model differentiating between syntactic categories across contexts correlated with the brain. An All-Embeddings model, where each contextualized word had a distinct representation, explained distributed neural activity across the left hemisphere. Finally, a Syntactic Context model and Within-Context-Stem model were significant in left occipitoparietal regions. While the noun versus verb contrast affected neural signals robustly, we saw no evidence of the homonym-polyseme-unambiguous contrast, over and above the evidence for fully itemized representations. These findings suggest that in contexts devoid of ambiguity, the neural representation of a word is mainly shaped by its syntactic category and its contextually informed, unique semantic representation.
+
+Paper link: 10.1523/JNEUROSCI.0409-24.2025
