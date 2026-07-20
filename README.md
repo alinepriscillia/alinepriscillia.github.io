@@ -13,5 +13,5 @@ It uses this color palette: https://coolors.co/f4d6cc-d35269-899878-243010-c8d0c
 
 
 ### Where to find relevant information: 
-Most of the pages are markdown files contained 
+Most of the pages are markdown files contained in the pages folder under sites. 
 
