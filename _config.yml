@@ -237,6 +237,7 @@ exclude:
   - docker-compose.yml
   - docker-compose-slim.yml
   - docs/
+  - _books/
   - Gemfile
   - Gemfile.lock
   - LICENSE
@@ -248,6 +249,7 @@ exclude:
   - README.md
   - readme_preview/
   - gems/
+  - _posts/
   - migrations/
   - vendor
 keep_files:

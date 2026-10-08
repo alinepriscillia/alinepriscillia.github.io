@@ -1,13 +1,13 @@
 ---
 layout: course
-title: Data Science Fundamentals
+title: Cognition
 description: This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.
-instructor: Prof. Data
-year: 2024
-term: Spring
+instructor: Aline-Priscillia Messi
+year: 2026
+term: Summer
 location: Science Building, Room 202
 time: Mondays and Wednesdays, 2:00-3:30 PM
-course_id: data-science-fundamentals
+course_id: cognition
 schedule:
   - week: 1
     date: Feb 5
