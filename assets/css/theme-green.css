@@ -1,0 +1,60 @@
+:root {
+  --global-bg-color: #C8D0CB;
+  --global-code-bg-color: #f3f3f3;
+  --global-text-color: #243010;
+  --global-text-color-light: #899878;
+  --global-theme-color: #D35269;
+  --global-hover-color: #F4D6CC;
+  --global-hover-text-color: #ffffff;
+  --global-footer-bg-color: #243010;
+  --global-footer-text-color: #ffffff;
+  --global-footer-link-color: #ffffff;
+  --global-distill-app-color: #899878;
+  --global-divider-color: #899878;
+  --global-card-bg-color: #F4D6CC;
+  --global-highlight-color: #D35269;
+  --global-back-to-top-bg-color: rgba(36, 48, 16, 0.4);
+  --global-back-to-top-text-color: #ffffff;
+  --global-newsletter-bg-color: #f5f5f5;
+  --global-newsletter-text-color: #243010;
+}
+
+html[data-theme="dark"] {
+  --global-bg-color: #243010;
+  --global-code-bg-color: #f3f3f3;
+  --global-text-color: #f5f5f5;
+  --global-text-color-light: #d9d9d9;
+  --global-theme-color: #F4D6CC;
+  --global-hover-color: #D35269;
+  --global-hover-text-color: #ffffff;
+  --global-footer-bg-color: #f5f5f5;
+  --global-footer-text-color: #243010;
+  --global-footer-link-color: #243010;
+  --global-distill-app-color: #d9d9d9;
+  --global-divider-color: #F4D6CC;
+  --global-card-bg-color: #899878;
+  --global-back-to-top-bg-color: rgba(255, 255, 255, 0.5);
+  --global-back-to-top-text-color: #243010;
+  --global-newsletter-bg-color: #f5f5f5;
+  --global-newsletter-text-color: #243010;
+}
+
+body,
+.main-content,
+.navbar,
+.card,
+.post,
+.project,
+.publication,
+.news-item,
+.footer {
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+nav a:hover,
+.site-title a:hover,
+.btn:hover,
+button:hover,
+a:hover {
+  color: var(--global-hover-text-color);
+}
