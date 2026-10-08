@@ -2,16 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD Candidate @ NYU. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: headshot.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>I'm a <strong>5th year PhD Candidate </strong> at <strong>New York University </strong> from France. 
+      I'm interested in individual differences in semantic representation 
+      from a social and affective neuroscience lens. My work combines
+      <strong>magnetoencephalography (MEG)</strong>, <strong>Natural Language Processing</strong>, <strong>eyetracking</strong> and mixed-methods surveys to answer questions about 
+      how we as individuals use and process meaning.</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,8 +29,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<p> A little bit more about me... I'm originally from Paris but I've lived in France, the UK, the USA and the Netherlands. Before doing my PhD at NYU, I did an internship in Andrea Martin's lab at the Max Planck Institue for Psycholinguistics at the same time as a Bachelor's in theoretical linguistics. I loved neurolinguistics and the neuroscience of language so much that I did my bachelor's thesis there (supervised by Dr Yiya Chen and Dr Sanne ten Oever)! While my background is quite theoretical, I'm more interested in seeing how language  as a cognitive function connects to other functions like memory or emotion.</p>
+<p> My current research combines neuroimaging (MEG), Natural Language Processing, social neuroscience and psychology to answer a broad range of questions about meaningful representations and how they are instantiated in the brain. My dissertation broadly investigates the effect of context  on language representations: from the influence of surrounding words on single-word representations to the role that our individual lived experience plays on our understanding and neural processing of a story. </p>
+<p> Check out my <a href="/projects/">projects</a> and <a href="/papers/">papers</a> pages for more information about my work!</p>
+<p>In my free time, I love any and everything to do with movement: dancing, hiking, kayaking etc. </p>
+  
