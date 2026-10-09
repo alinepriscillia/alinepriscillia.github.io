@@ -39,6 +39,28 @@ html[data-theme="dark"] {
   --global-newsletter-text-color: #243010;
 }
 
+html[data-theme="dark"] .news,
+html[data-theme="dark"] .news table,
+html[data-theme="dark"] .news table th,
+html[data-theme="dark"] .news table td {
+  color: var(--global-text-color) !important;
+}
+
+html[data-theme="dark"] .news a,
+html[data-theme="dark"] .news .news-title,
+html[data-theme="dark"] .news .news-title:visited,
+html[data-theme="dark"] .news .news-title:hover,
+html[data-theme="dark"] .news .news-title:focus {
+  color: var(--global-theme-color) !important;
+}
+
+html[data-theme="dark"] .news table,
+html[data-theme="dark"] .news table th,
+html[data-theme="dark"] .news table td {
+  background-color: transparent !important;
+  border-color: var(--global-divider-color) !important;
+}
+
 body,
 .main-content,
 .navbar,

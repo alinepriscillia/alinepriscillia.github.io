@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /tutorials/
-title: Tutorials
+title: tutorials
 description: Tutorials with embedded notebooks and/or documentation
 nav: true
 nav_order: 6

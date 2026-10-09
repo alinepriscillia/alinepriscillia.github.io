@@ -2,7 +2,7 @@
 layout: page
 tutorial: true
 title: Single-trial clustering tests
-description: A walkthrough of group-level significance testing for single-trial results using spatiotemporal clustering.
+description: A walkthrough of group-level significance testing for single-trial MEG results using spatiotemporal clustering.
 permalink: /tutorials/single-trial-clustering-tests/
 notebook_file: 7,9_Single_trial_clustering_tests.ipynb
 ---
