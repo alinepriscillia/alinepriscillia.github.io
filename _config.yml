@@ -198,6 +198,8 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
+  tutorials:
+    output: true
   books:
     output: false
   news:

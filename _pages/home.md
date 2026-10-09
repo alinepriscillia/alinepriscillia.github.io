@@ -25,4 +25,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<p>I'm a <strong>5th year PhD Candidate </strong> at <strong>New York University </strong> from France. I'm interested in individual differences in semantic representationfrom a social and affective neuroscience lens. My work combines <strong>magnetoencephalography (MEG)</strong>, <strong>Natural Language Processing</strong>, <strong>eyetracking</strong> and mixed-methods surveys to answer questions about how we as individuals use and process meaning.</p>
+<p>I'm a <strong>5th year PhD Candidate </strong> at <strong>New York University </strong> from France. I'm interested in individual differences in semantic representation from a social and affective neuroscience lens. My work combines <strong>magnetoencephalography (MEG)</strong>, <strong>Natural Language Processing</strong>, <strong>eyetracking</strong> and mixed-methods surveys to answer questions about how we as individuals use and process meaning.</p>
