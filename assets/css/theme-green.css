@@ -22,12 +22,12 @@
 html[data-theme="dark"] {
   --global-bg-color: #243010;
   --global-code-bg-color: #f3f3f3;
-  --global-text-color: #f5f5f5;
-  --global-text-color-light: #d9d9d9;
+  --global-text-color: #C8D0CB;
+  --global-text-color-light: #C8D0CB;
   --global-theme-color: #F4D6CC;
   --global-hover-color: #D35269;
-  --global-hover-text-color: #ffffff;
-  --global-footer-bg-color: #f5f5f5;
+  --global-hover-text-color: #C8D0CB;
+  --global-footer-bg-color: #C8D0CB;
   --global-footer-text-color: #243010;
   --global-footer-link-color: #243010;
   --global-distill-app-color: #d9d9d9;
