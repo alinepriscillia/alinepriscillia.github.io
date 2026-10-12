@@ -7,6 +7,13 @@ nav: true
 nav_order: 6
 ---
 
+## Methods Tutorials
+
+- [Filtering](https://www.pophristic.com/wiki/docs/Preprocessing/Filtering/Filtering.html): An overview of temporal and spatial filtering in MEG data, with separate lessons for each and implementation code.
+- [Canonical Correlation Analysis](https://www.pophristic.com/wiki/docs/MEG%20Analyses/Canonical%20Correlation%20Analysis.html): An introduction, mathematical derivation, and sample MEG/EEG implementation of Canonical Correlation Analysis.
+
+## Notebook Tutorials
+
 {% assign tutorial_pages = site.tutorials | where: "tutorial", true | sort: "title" %}
 {% if tutorial_pages.size > 0 %}
 <ul class="post-list">
